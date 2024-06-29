@@ -30,13 +30,14 @@
     materialComposition:
       Steel: 15
   - type: Healing
-    delay: 0.6
+    delay: 1.2
     damageContainers:
     - Silicon
     damage:
       types: # these are all split across multiple types
-        Heat: -1.66
-        Shock: -1.66
+        Heat: -4
+        Shock: -4
+        Cold: -4
 
 - type: entity
   id: CableHVStack
